@@ -1,0 +1,8 @@
+Title = {{title}}<br>
+length of list = {{balls.length}}
+<table>
+  <tr><td>ID</td><td>Color</td><td>Size</td></tr>
+  <tr *ngFor="let b of balls">
+    <td>{{b.id}}</td><td>{{b.color}}</td><td>{{b.size}}</td>
+  </tr>
+</table>
